@@ -38,25 +38,25 @@
 							<div class="mt-3">
 
 
-								<li><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="notice-view/nts-0223" >পুনঃ ভর্তি সংক্রান্ত</a></li>
+								<li><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="view_notices.php" >পুনঃ ভর্তি সংক্রান্ত</a></li>
 
 
-								<li><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="notice-view/nts-0222" >ক্লাসে উপস্থিতি সংক্রান্ত</a></li>
+								<li><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="view_notices.php" >ক্লাসে উপস্থিতি সংক্রান্ত</a></li>
 
 
-								<li><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="notice-view/nts-0221" >উপবৃত্তি সংক্রান্ত বিজ্ঞপ্তি</a></li>
+								<li><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="view_notices.php" >উপবৃত্তি সংক্রান্ত বিজ্ঞপ্তি</a></li>
 
 
-								<li><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="notice-view/nts-0220" >শিক্ষক, কর্মকর্তা ও কর্মচারীদের বার্ষিক গোপনীয় অনুবেদন সংক্রান্ত</a></li>
+								<li><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="view_notices.php" >শিক্ষক, কর্মকর্তা ও কর্মচারীদের বার্ষিক গোপনীয় অনুবেদন সংক্রান্ত</a></li>
 
 
-								<li><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="notice-view/nts-0219" >প্রতিবন্ধী শিক্ষার্থীদের জন্য শিক্ষা উপবৃত্তি প্রচার সংক্রান্ত।</a></li>
+								<li><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="view_notices.php" >প্রতিবন্ধী শিক্ষার্থীদের জন্য শিক্ষা উপবৃত্তি প্রচার সংক্রান্ত।</a></li>
 
 
 							</div>
 
 							<div class="">
-								<a href="Notices" class="float-right all">সকল</a>
+								<a href="notices.php" class="float-right all">সকল</a>
 							</div>
 
 

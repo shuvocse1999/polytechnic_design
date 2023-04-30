@@ -6,10 +6,10 @@
 			<li class="list-group-item" id="featureheads">অধ্যক্ষের বার্তা</li>
 		</ul>
 		<li class="list-group-item p-0 pt-2" id="padd">
-			<a href=""><center><img src="frontend/img/280822_15_31_43.jpg" class="img-fluid"></center></a>
+			<a href="principle_message.php"><center><img src="frontend/img/280822_15_31_43.jpg" class="img-fluid"></center></a>
 			<center>
 				<div class="mt-2 mb-2">
-					<span class="head">মুহাম্মদ  মাজহারুল ইসলাম চৌধুরী<br><a href="" class="details">বিস্তারিত...</a></span>
+					<span class="head">মুহাম্মদ  মাজহারুল ইসলাম চৌধুরী<br><a href="principle_message.php" class="details">বিস্তারিত...</a></span>
 				</div>
 			</center>
 		</li>

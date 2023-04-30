@@ -88,38 +88,28 @@
 
 
 
-
-
-
- <div id="carouselExampleIndicators" class="carousel slide d-block d-sm-none" data-ride="carousel">
+ <div id="carouselExampleControls" class="carousel slide d-block d-sm-none" data-bs-ride="carousel">
   <div class="carousel-inner">
-
-
     <div class="carousel-item active">
-      <img src="public/photo_gallery/090521_07_04_08.jpg" class="d-block w-100">
+      <img src="frontend/img/090521_07_04_08.jpg" class="d-block w-100" alt="...">
     </div>
-
-
-
-
     <div class="carousel-item">
-      <img src="public/photo_gallery/090521_07_16_08.jpg" class="d-block w-100">
+      <img src="frontend/img/090521_07_04_08.jpg" class="d-block w-100" alt="...">
     </div>
-
-
-
+    <div class="carousel-item">
+      <img src="frontend/img/090521_07_04_08.jpg" class="d-block w-100" alt="...">
+    </div>
   </div>
-
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
-</div><!---------------End Mobile Slider------------------->
 
 
 
@@ -152,7 +142,7 @@
   <div class="collapse navbar-collapse " id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href=""><i class="fa fa-home" aria-hidden="true" style="font-size: 15px;"></i></a>
+        <a class="nav-link" href="index.php"><i class="fa fa-home" aria-hidden="true" style="font-size: 15px;"></i></a>
       </li>
 
 
@@ -167,7 +157,7 @@
           <div class="row">
 
             <div class="col-md-3 col-12 dmenu mt-3">
-             <li><a href="Historys">সংক্ষিপ্ত ইতিহাস</a></li>
+             <li><a href="details.php">সংক্ষিপ্ত ইতিহাস</a></li>
              <li><a href="Mission">লক্ষ্য</a></li>
              <li><a href="Vision">উদ্দেশ্য</a></li>
              <li><a href="Place">অবস্থান</a></li>
@@ -523,8 +513,8 @@
                   <ul class="dropdown-menu pb-3 bg-white" aria-labelledby="navbarDropdownMenuLink" style="min-width: 150px; max-width:100%;">
 
                     <div class="col-md-12 col-12 dmenu mt-3">
-                     <li><a href="Photo_Gallery">ফটোগ্যালারি</a></li>
-                     <li><a href="Videogallery">ভিডিওগ্যালারি</a></li>
+                     <li><a href="photo_gallery.php">ফটোগ্যালারি</a></li>
+                     <li><a href="video_gallery.php">ভিডিওগ্যালারি</a></li>
                    </div>
                  </ul>
                </li>
