@@ -33,7 +33,7 @@
 
      <div class="col-sm-12 col-12  topheader">
       <div class="row">
-        <div class="col-sm-8 col-12 text-sm-left text-center" id="email">
+        <div class="col-sm-8 col-6 text-sm-left" id="email">
  <!--          <label> <a href="job_placement" class="btn btn-danger btn-sm">কর্মরত প্রাক্তন ছাত্র-ছাত্রীদের ডাটাবেজ</a> </label>
           
   <label>     <a href="attached_cv"  class="btn btn-info btn-sm">কর্ম প্রত্যাশীদের বায়োডাটা সংযুক্তকরণ</a></label> -->
@@ -44,10 +44,15 @@
 </div>
 
 
-<div class="col-sm-4 col-4 text-sm-right" id="email">
-  <label><a href="" style="text-decoration:none;color:white;margin-right:10px" class="btn btn-success btn-sm"> <img src="frontend/img/bdicon.png" style="width:20px">&nbsp;বাংলা</a
-    ></label><label><a href="en" style="text-decoration:none" class="btn btn-outline-info btn-sm"> <img src="frontend/img/us.png" style="width:20px;">&nbsp;English</a>
-    </label>
+<div class="col-sm-4 col-6 text-sm-right text-center" id="email">
+  <div class="btn-group" role="group" aria-label="Basic example">
+
+    <label><a href="" style="text-decoration:none;color:white;margin-right:10px" class="btn btn-success btn-sm"> <img src="frontend/img/bdicon.png" style="width:20px">&nbsp;বাংলা</a
+      ></label><label><a href="en" style="text-decoration:none" class="btn btn-outline-info btn-sm"> <img src="frontend/img/us.png" style="width:20px;">&nbsp;English</a>
+      </label>
+    </div>
+
+
   </div>
 
 </div>
@@ -82,7 +87,7 @@
     <i class="right" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" transform="translate(100, 100) rotate(180) "></path></svg></i>
     <!-- Title Bar -->
     <span class="titleBar">
-     <a href=""><img src="frontend/img/220521_02_10_42.jpg" class="img-fluid"></a>&nbsp;&nbsp;<span>ফেনী  কম্পিউটার ইনস্টিটিউট <p style="padding-left: 100px;  margin-top: -20px;">প্রতিষ্ঠাকাল - ২০০৩ ইং</p></span><br>
+     <a href="index.php"><img src="frontend/img/220521_02_10_42.jpg" class="img-fluid"></a>&nbsp;&nbsp;<span>ফেনী  কম্পিউটার ইনস্টিটিউট <p style="padding-left: 100px;  margin-top: -20px;">প্রতিষ্ঠাকাল - ২০০৩ ইং</p></span><br>
    </span>
  </div>
 
@@ -133,10 +138,9 @@
 
   <a class="navbar-brand d-sm-none d-block" style="color: #000; font-weight: bold;" href="">মেনু নির্বাচন করুন</a>
 
-  <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #f4f4f4; color: #fff; padding: 5px 10px;">
+  <button  class="navbar-toggler"  uk-toggle="target: #offcanvas-slide" style="background-color: #f4f4f4; color: #fff; padding: 5px 10px;">
     <span class="navbar-toggler-icon" style="color: #fff;"></span>
   </button>
-
 
 
   <div class="collapse navbar-collapse " id="navbarNavDropdown">
@@ -535,6 +539,76 @@
 
 
 
+
+
+     <div id="offcanvas-slide" id="offcanvas-slide" uk-offcanvas="flip: false; overlay: true;">
+      <div class="uk-offcanvas-bar d-block sidemenu" id="mobilemenuoff" style="transition: 0.9s; border:none; background-color: #000;">
+       <button class="uk-offcanvas-close" type="button" style="top:6px; color: #fff;" uk-close></button>
+       <br><br>
+
+
+       <ul class="uk-nav-parent-icon p-3" uk-nav duration='800'>
+
+         <li><a href=""><span uk-icon="icon: chevron-right; ratio: 0.9"></span>&nbsp;&nbsp;হোম</a></li>
+
+
+         <li class="uk-parent">
+          <a href="#"><span uk-icon="icon: chevron-right; ratio: 0.9"></span>&nbsp;&nbsp;আমাদের সম্পর্কে</a>
+          <ul class="uk-nav-sub">
+            <li><a href="details.php">সংক্ষিপ্ত ইতিহাস</a></li>
+            <li><a href="Mission">লক্ষ্য</a></li>
+            <li><a href="Vision">উদ্দেশ্য</a></li>
+            <li><a href="Place">অবস্থান</a></li>
+            <li><a href="Structure">প্রাতিষ্ঠানিক লেআউট </a></li>
+            <li><a href="Info">অর্গানোগ্রাম</a></li>
+            <li><a href="Contact">যোগাযোগের ঠিকানা </a></li>
+            <!--<li><a href="Historys"></a></li>-->
+          </ul>
+        </li>
+
+
+
+         <li class="uk-parent">
+          <a href="#"><span uk-icon="icon: chevron-right; ratio: 0.9"></span>&nbsp;&nbsp;বিভাগ সমূহ </a>
+        </li>
+
+
+
+         <li class="uk-parent">
+          <a href="#"><span uk-icon="icon: chevron-right; ratio: 0.9"></span>&nbsp;&nbsp;একাডেমিক কার্যক্রম </a>
+        </li>
+
+
+
+         <li class="uk-parent">
+          <a href="#"><span uk-icon="icon: chevron-right; ratio: 0.9"></span>&nbsp;&nbsp;অনলাইন ক্লাস রুটিন </a>
+        </li>
+
+
+
+
+         <li class="uk-parent">
+          <a href="#"><span uk-icon="icon: chevron-right; ratio: 0.9"></span>&nbsp;&nbsp;সিলেবাস </a>
+        </li>
+
+
+
+
+         <li class="uk-parent">
+          <a href="#"><span uk-icon="icon: chevron-right; ratio: 0.9"></span>&nbsp;&nbsp;সেমিস্টার প্ল্যান </a>
+        </li>
+
+
+
+
+
+
+
+      </ul>
+
+
+    </div>
+  </div> <!----------------End Mobile Menu------------->
 
 
 
